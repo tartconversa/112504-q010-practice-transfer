@@ -1,0 +1,6 @@
+tower,floor,shift,skill,min_count,from_day
+T1,1,night,awareness,2,2026-08-15
+T1,1,day,exercise,1,2026-08-15
+T2,1,night,exercise,1,2026-08-15
+T2,2,day,awareness,2,2026-08-15
+T2,2,night,awareness,1,2026-08-15

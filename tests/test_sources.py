@@ -4,8 +4,8 @@ import unittest
 from pathlib import Path
 
 SAMPLES = Path(__file__).resolve().parents[1] / "samples"
-SCHEMAS = {'skills': ['version', 'station', 'outcome', 'basis', 'comparable'], 'cohorts': ['person', 'cohort', 'tower', 'shift', 'joined', 'course', 'version'], 'observations': ['attempt', 'person', 'station', 'at', 'kind', 'score', 'received'], 'invitations': ['invite', 'person', 'round', 'day', 'outcome', 'probability'], 'shifts': ['person', 'tower', 'level', 'shift', 'start', 'stop'], 'refreshers': ['slot', 'tower', 'shift', 'date', 'station', 'instructor', 'capacity', 'state']}
-REFERENCES = [('observations', 'person', 'cohorts', 'person'), ('observations', 'station', 'skills', 'station'), ('invitations', 'person', 'cohorts', 'person'), ('shifts', 'person', 'cohorts', 'person'), ('refreshers', 'station', 'skills', 'station')]
+SCHEMAS = {'skills': ['version', 'station', 'outcome', 'basis', 'comparable'], 'cohorts': ['person', 'cohort', 'tower', 'shift', 'joined', 'course', 'version'], 'observations': ['attempt', 'person', 'station', 'at', 'kind', 'score', 'received'], 'invitations': ['invite', 'person', 'round', 'day', 'outcome', 'probability'], 'shifts': ['person', 'tower', 'level', 'shift', 'start', 'stop'], 'refreshers': ['slot', 'tower', 'shift', 'date', 'station', 'instructor', 'capacity', 'state'], 'coverage_targets': ['tower', 'floor', 'shift', 'skill', 'min_count', 'from_day'], 'instructor_windows': ['slot', 'instructor', 'start', 'end', 'active']}
+REFERENCES = [('observations', 'person', 'cohorts', 'person'), ('observations', 'station', 'skills', 'station'), ('invitations', 'person', 'cohorts', 'person'), ('shifts', 'person', 'cohorts', 'person'), ('refreshers', 'station', 'skills', 'station'), ('coverage_targets', 'skill', 'skills', 'outcome'), ('instructor_windows', 'slot', 'refreshers', 'slot'), ('instructor_windows', 'instructor', 'refreshers', 'instructor')]
 OBSERVED = [('observations', 'attempt', 'S2', 2), ('refreshers', 'slot', 'R1', 2), ('shifts', 'person', 'P1', 2)]
 
 class Sources(unittest.TestCase):
