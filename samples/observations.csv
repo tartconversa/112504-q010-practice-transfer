@@ -1,0 +1,11 @@
+attempt,person,station,at,kind,score,received
+S1,P1,SA1,2025-05-03,initial,pass,2025-05-03
+S2,P1,SA2,2025-08-01,followup,,2025-08-02
+S2,P1,SA2,2025-08-01,followup,pass,2026-08-15
+S3,P2,SA2,2025-08-02,followup,pass,2025-08-02
+S4,P3,SA2,2025-08-02,followup,fail,2025-08-02
+S5,P4,SA1,2025-08-03,followup,pass,2025-08-03
+S6,P5,SB2,2026-01-02,followup,pass,2026-01-02
+S7,P6,SB1,2026-01-02,followup,fail,2026-01-02
+S8,P7,SB1,2026-01-03,followup,pass,2026-01-04
+S9,P8,SB1,2026-01-03,followup,,2026-01-04

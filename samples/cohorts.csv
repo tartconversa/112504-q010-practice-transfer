@@ -1,0 +1,9 @@
+person,cohort,tower,shift,joined,course,version
+P1,C1,T1,night,2025-05-03,short,A
+P2,C1,T1,day,2025-05-04,full,A
+P3,C1,T2,night,2025-05-04,short,A
+P4,C1,T2,night,2025-05-03,full,A
+P5,C2,T1,night,2025-09-03,short,B
+P6,C2,T1,day,2025-09-04,full,B
+P7,C2,T2,night,2025-09-04,short,B
+P8,C2,T2,day,2025-09-04,full,B

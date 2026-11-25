@@ -1,0 +1,6 @@
+slot,tower,shift,date,station,instructor,capacity,state
+R1,T2,night,2026-08-17,SB2,A1,4,confirmed
+R1,T2,night,2026-08-17,SB2,A1,4,cancelled
+R2,T1,night,2026-08-18,SB1,A1,3,proposed
+R3,T2,day,2026-08-18,SB1,A1,3,proposed
+R4,T2,night,2026-08-20,SA2,A2,4,proposed

@@ -1,0 +1,5 @@
+version,station,outcome,basis,comparable
+A,SA1,awareness,common,yes
+A,SA2,exercise,common,yes
+B,SB1,awareness,common,yes
+B,SB2,exercise,advanced,no
